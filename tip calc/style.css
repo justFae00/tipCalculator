@@ -1,0 +1,58 @@
+html {
+  background-color: rgb(225, 189, 225);
+  font-family: "Helvetica", sans-serif;
+}
+.mainBox {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 4px 2px #b87dbb;
+  padding: 0.9cm;
+  margin: auto;
+  margin-top: 2.6cm;
+  border: 7px;
+  width: 10cm;
+  height: 11cm;
+  border-radius: 15px;
+}
+
+#billInput {
+  width: 100%;
+  height: 6mm;
+  background-color: rgb(234, 234, 234);
+  border-width: 1px;
+  border-radius: 3px;
+}
+
+#billInput:hover {
+  background-color: rgb(241, 241, 241);
+  transition: ease;
+}
+
+#tipInput {
+  width: 100%;
+  margin-bottom: 0.6cm;
+  height: 6mm;
+  background-color: rgb(234, 234, 234);
+  border-width: 1px;
+  border-radius: 3px;
+}
+
+#tipInput:hover {
+  background-color: rgb(241, 241, 241);
+  transition: ease;
+}
+
+#submit {
+  width: 102%;
+  height: 8mm;
+  margin: auto;
+  background-color: rgb(150, 192, 255);
+  border-radius: 3px;
+  border-width: 1px;
+}
+
+#submit:hover {
+  background-color: rgb(179, 130, 238);
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  cursor: pointer;
+}
